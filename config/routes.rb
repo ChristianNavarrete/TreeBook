@@ -8,7 +8,7 @@ Treebook::Application.routes.draw do
   end
 
   resources :statuses
-  get 'feed', to: 'statuses#index', as: :feed
+  get 'feed', to: 'statuses#index', as: :feedgit  
   root to: 'statuses#index'
 
 
